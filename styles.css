@@ -1,0 +1,136 @@
+@font-face {
+  font-family: "Raleway-Bold";
+  src: url(Raleway-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Raleway-Light";
+  src: url(Raleway-Light.ttf);
+}
+
+body {
+  text-align: center;
+  background-color: #212121;
+  height: 100%;
+}
+
+.container {
+  max-width: 1240px;
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
+  display: grid;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #1FD662;
+  font-family: "Raleway-Bold", bold;
+  margin-bottom: 0;
+}
+
+footer {
+  color: #ffffff;
+  font-family: "Raleway-Light", light;
+}
+
+.w {
+  background-image: url("images/tom1.png");
+}
+
+.a {
+  background-image: url("images/tom2.png");
+}
+
+.s {
+  background-image: url("images/tom3.png");
+}
+
+.d {
+  background-image: url("images/tom4.png");
+}
+
+.j {
+  background-image: url("images/snare.png");
+}
+
+.k {
+  background-image: url("images/crash.png");
+}
+
+.l {
+  background-image: url("images/kick.png");
+}
+
+.set {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #CBF7DB;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 4px solid #CBF7DB;
+  font-size: 3rem;
+  font-family: "Raleway-Bold", bold;
+  line-height: 2;
+  color: #1FD662;
+  border-radius: 16px;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+
+  h1 {
+    font-size: 5rem;
+  }
+
+  .set {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+  .drum {
+    border: 8px solid #CBF7DB;
+    font-size: 5rem;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+  }
+
+}
+
+@media screen and (min-width: 1240px) {
+  
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+}
